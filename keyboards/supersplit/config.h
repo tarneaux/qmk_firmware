@@ -33,4 +33,7 @@
 //#define NO_ACTION_ONESHOT
 //
 
+
+#define IGNORE_MOD_TAP_INTERRUPT
+
 #define MASTER_LEFT
