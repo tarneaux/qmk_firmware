@@ -22,10 +22,10 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
                                                                                                                               KC_F7, KC_F8, KC_F9, KC_F10, KC_F12, KC_NO,
                                                                                                                               KC_J, KC_L, KC_U, KC_Y, KC_SCLN, KC_PSCR,
-                                                                                                                              KC_H, KC_N, KC_E, KC_I, KC_O, KC_ENT,
+                                                                                                                              KC_H, KC_N, KC_E, KC_I, KC_O, KC_NO,
                                                                                                                               KC_K, KC_M, KC_COMM, KC_DOT, KC_SLSH, KC_NO,
                                                                                                     KC_NO, KC_NO, KC_NO,
-                                                                                                    KC_NO, KC_NO, KC_NO, KC_BSPC, MO(2), KC_LCTL),
+                                                                                                    KC_NO, KC_NO, KC_NO, KC_BSPC, LT(2,KC_ENT), KC_LCTL),
 	[1] = LAYOUT_split_6x4_9(KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO,
                              KC_NO, KC_ESC, KC_AT, KC_AMPR, KC_DLR, KC_PERC,
                              KC_TRNS, KC_HASH, KC_LPRN, KC_LCBR, KC_LBRC, KC_MINS,
