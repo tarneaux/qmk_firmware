@@ -43,7 +43,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
                                                                                                     KC_TRNS, KC_TRNS, KC_TRNS, KC_DEL, KC_TRNS, KC_TRNS),
 	[2] = LAYOUT_split_6x4_9(KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO,
                              KC_NO, KC_1, KC_2, KC_3, KC_4, KC_5,
-                             KC_TRNS, KC_MPRV, KC_VOLD, KC_VOLU, KC_MNXT, OSM(MOD_LALT),
+                             KC_TRNS, KC_MPRV, KC_VOLD, KC_VOLU, KC_MNXT, KC_MUTE,
                              KC_NO, KC_NO, KC_NO, KC_NO, KC_MPLY, KC_NO,
                                                                                  KC_TRNS, KC_TRNS, KC_TRNS,
                                                       KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,
