@@ -2,3 +2,5 @@
 SPLIT_KEYBOARD = yes
 
 SERIAL_DRIVER = bitbang
+
+COMBO_ENABLE = yes
