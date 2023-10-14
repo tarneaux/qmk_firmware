@@ -13,9 +13,11 @@ bool get_tapping_force_hold(uint16_t keycode, keyrecord_t *record) {
 }
 
 const uint16_t PROGMEM lgui_combo[] = {KC_R, KC_T, COMBO_END};
+const uint16_t PROGMEM lctrl_combo[] = {KC_N, KC_I, COMBO_END};
 
 combo_t key_combos[] = {
     COMBO(lgui_combo, OSM(MOD_LGUI)),
+    COMBO(lctrl_combo, OSM(MOD_LCTL))
 };
 
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
@@ -31,7 +33,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
                                                                                                                               KC_H, KC_N, KC_E, KC_I, KC_O, KC_NO,
                                                                                                                               KC_K, KC_M, KC_COMM, KC_DOT, KC_SLSH, KC_NO,
                                                                                                     KC_NO, KC_NO, KC_NO,
-                                                                                                    KC_NO, KC_NO, KC_NO, KC_BSPC, LT(2,KC_ENT), KC_LCTL),
+                                                                                                    KC_NO, KC_NO, KC_NO, KC_BSPC, LT(2,KC_ENT), KC_NO),
 	[1] = LAYOUT_split_6x4_9(KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO,
                              KC_NO, KC_ESC, KC_AT, KC_AMPR, KC_DLR, KC_PERC,
                              KC_TRNS, KC_HASH, KC_LPRN, KC_LCBR, KC_LBRC, KC_MINS,
